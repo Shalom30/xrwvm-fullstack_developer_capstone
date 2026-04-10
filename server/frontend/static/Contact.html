@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Best Cars Dealership</title>
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { background-color: #f8f9fa; }
+    .contact-hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+                    color: white; padding: 60px 0; margin-bottom: 50px; }
+    .contact-card { border: none; border-radius: 12px;
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+    .contact-icon { font-size: 1.5rem; margin-right: 10px; }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand font-weight-bold" href="/">&#127955; Best Cars Dealership</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About Us</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/contact">
+          Contact Us <span class="sr-only">(current)</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="contact-hero text-center">
+  <div class="container">
+    <h1 class="display-4 font-weight-bold">Contact Us</h1>
+    <p class="lead mt-3">
+      We'd love to hear from you. Reach out to us anytime.
+    </p>
+  </div>
+</div>
+
+<div class="container mb-5">
+  <div class="row">
+
+    <div class="col-md-5 mb-4">
+      <div class="card contact-card p-4 h-100">
+        <h4 class="font-weight-bold mb-4">Get In Touch</h4>
+
+        <div class="media mb-3">
+          <span class="contact-icon">&#128205;</span>
+          <div class="media-body">
+            <strong>Address</strong><br />
+            <span class="text-muted">
+              123 Main Street, Kansas City, KS 66101
+            </span>
+          </div>
+        </div>
+
+        <div class="media mb-3">
+          <span class="contact-icon">&#128222;</span>
+          <div class="media-body">
+            <strong>Phone</strong><br />
+            <span class="text-muted">+1 (913) 555-0192</span>
+          </div>
+        </div>
+
+        <div class="media mb-3">
+          <span class="contact-icon">&#128231;</span>
+          <div class="media-body">
+            <strong>Email</strong><br />
+            <a href="mailto:contact@bestcars.com">contact@bestcars.com</a>
+          </div>
+        </div>
+
+        <div class="media mb-3">
+          <span class="contact-icon">&#128337;</span>
+          <div class="media-body">
+            <strong>Business Hours</strong><br />
+            <span class="text-muted">
+              Monday – Friday: 9:00 AM – 6:00 PM<br />
+              Saturday: 10:00 AM – 4:00 PM<br />
+              Sunday: Closed
+            </span>
+          </div>
+        </div>
+
+        <div class="media mb-3">
+          <span class="contact-icon">&#127758;</span>
+          <div class="media-body">
+            <strong>Follow Us</strong><br />
+            <a href="#" class="mr-2">Facebook</a>
+            <a href="#" class="mr-2">Twitter</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+
+        <img
+          src="https://maps.googleapis.com/maps/api/staticmap?center=Kansas+City,KS&zoom=12&size=400x180&maptype=roadmap&markers=color:red%7CKansas+City,KS&key=AIzaSyD-placeholder"
+          class="img-fluid rounded mt-3"
+          alt="Office location map"
+          onerror="this.src='https://via.placeholder.com/400x180?text=Map+Location'"
+        />
+      </div>
+    </div>
+
+    <div class="col-md-7 mb-4">
+      <div class="card contact-card p-4 h-100">
+        <h4 class="font-weight-bold mb-4">Send Us a Message</h4>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control" id="firstName"
+                     placeholder="Enter first name" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="lastName">Last Name</label>
+              <input type="text" class="form-control" id="lastName"
+                     placeholder="Enter last name" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email"
+                   placeholder="Enter your email" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" class="form-control" id="phone"
+                   placeholder="Enter your phone number" />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" class="form-control" id="subject"
+                   placeholder="How can we help?" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5"
+                      placeholder="Write your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <p class="mb-0">&copy; 2024 Best Cars Dealership. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
